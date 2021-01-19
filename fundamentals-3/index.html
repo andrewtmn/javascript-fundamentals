@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fundamentals 3 - Functions</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+    <script>    
+        function add7(num) {
+            return num + 7;
+        }
+
+        function multiply(a, b) {
+            return a * b;
+        }
+
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.substring(1, str.length + 1).toLowerCase();
+        }
+
+        function lastLetter(str) {
+            return str.charAt(str.length - 1);
+        }
+
+        console.log(capitalize("AASDASD"));
+        console.log(lastLetter("ASDASDT"));
+
+    </script>
+</body>
+</html>
